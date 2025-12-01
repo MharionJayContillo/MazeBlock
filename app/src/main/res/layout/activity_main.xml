@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="48dp"
+        android:contentDescription="Maze Block Logo"
+        android:src="@drawable/mazelogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="MAZE BLOCK"
+        android:textColor="@color/dark_charcoal"
+        android:textSize="36sp"
+        android:letterSpacing="0.1"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPlay"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_unlocked"
+        android:fontFamily="sans-serif-medium"
+        android:text="PLAY GAME"
+        android:textColor="@color/dark_charcoal"
+        android:textSize="18sp" />
+
+</LinearLayout>

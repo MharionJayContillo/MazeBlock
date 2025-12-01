@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gameContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp"
+        android:background="@drawable/btn_unlocked"
+        android:minHeight="48dp"
+        android:paddingHorizontal="24dp"
+        android:text="Restart"
+        android:textColor="@color/dark_charcoal"
+        android:textStyle="bold" />
+
+</FrameLayout>
