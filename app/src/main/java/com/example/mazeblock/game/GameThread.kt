@@ -6,6 +6,9 @@ import android.view.SurfaceHolder
 class GameThread(private val surfaceHolder: SurfaceHolder, private val gameView: GameView) : Thread() {
     var running = false
     private val targetFPS = 60
+    fun setRunning(isRunning: Boolean) {
+        running = isRunning
+    }
 
     override fun run() {
         var startTime: Long
